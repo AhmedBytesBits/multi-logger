@@ -18,6 +18,7 @@ l = Log(
         loge_level=['python logging level'],
         mode=['prod or dev']
 ).getLogger()
+
 l.debug('this is a debug msg shown for level debug only')
 l.info('this is an info msg shown for debug level and after')
 l.warning('this is a warning msg shown for info level and after')
